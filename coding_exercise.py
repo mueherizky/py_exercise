@@ -23,3 +23,20 @@ def fizz_buzz(number):
 
 fizz_buzz(20)
 
+
+########## 3 ###########
+
+
+
+########## 4 ###########
+def showNumbers(limit):
+    number = limit
+    for number in range(1,limit):
+        if number % 2 == 0:
+            print(f"{number} is even number")
+        else:
+            print(f"{number} is odd number")
+
+showNumbers(20)
+
+
