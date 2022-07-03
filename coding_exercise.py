@@ -12,6 +12,10 @@ max_func(1, 2, 4, 7, 100)
 
 
 ########## 2 ###########
+
+'''
+The code below is just for check 1 number. And print 1 conditional statement.
+'''
 def fizz_buzz(number):
     if (number % 3 == 0) and (number % 5 == 0):
         print("FizzBuzz")
@@ -26,7 +30,26 @@ def fizz_buzz(number):
 fizz_buzz(20)
 
 
+'''
+If you want to use loop, while input 1 number, i mean for limit. You can use the code below.
+'''
+def fizzbuzz(limit):
+    for num in range(1,limit+1):
+        if (num % 5 == 0) and (num % 3 == 0):
+            print("Fizz Buzz")
+        elif num % 5 == 0:
+            print("Buzz")
+        elif num % 3 == 0:
+            print("Fizz")
+        else: 
+            print(num)
+
+fizzbuzz(100)
+
+
 ########## 3 ###########
+
+
 
 
 ########## 4 ###########
